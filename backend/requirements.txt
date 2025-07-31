@@ -26,7 +26,6 @@ defusedxml==0.7.1
 diff-match-patch==20241021
 distro==1.9.0
 Django==5.1.5
-Django>=5.0
 django-allauth==65.3.1
 django-cors-headers==4.7.0
 django-crontab==0.7.1
@@ -44,6 +43,7 @@ email_validator==2.2.0
 fastapi==0.116.1
 fastapi-cli==0.0.8
 fastapi-cloud-cli==0.1.4
+Faker==24.8.0
 Fibo==1.0.0
 firebase-admin==6.9.0
 Flask==3.1.0
