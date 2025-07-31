@@ -5,7 +5,7 @@ A modern, responsive, AI-enhanced analytics dashboard that visualizes user growt
 
 ## 🌐 Live Demo
 
-🔗 [Visit Dashboard](https://your-deployed-link.vercel.app)
+🔗 [Visit Dashboard](https://admybrand-dashboard-phi.vercel.app/)
 
 > Replace this with your actual deployed link.
 
@@ -91,7 +91,7 @@ python manage.py runserver
 
 ## 🧑‍💻 Author
 
-- **Name**: Ganesh
+- **Name**: Ganesh Ganagani
 - **Role**: Full Stack Developer | AI Integrator
 
 ---
