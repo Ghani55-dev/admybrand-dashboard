@@ -50,6 +50,7 @@ fonttools==4.58.2
 fpdf==1.7.2
 fpdf2==2.8.3
 frozenlist==1.6.0
+Faker==24.8.0
 git-filter-repo==2.47.0
 google-ai-generativelanguage==0.6.15
 google-api-core==2.25.1
