@@ -26,6 +26,7 @@ defusedxml==0.7.1
 diff-match-patch==20241021
 distro==1.9.0
 Django==5.1.5
+Django>=5.0
 django-allauth==65.3.1
 django-cors-headers==4.7.0
 django-crontab==0.7.1
@@ -121,7 +122,6 @@ PyMsgBox==1.0.9
 pyparsing==3.2.3
 pypdf==5.5.0
 pyperclip==1.9.0
-pypiwin32==223
 PyRect==0.2.0
 PyScreeze==1.0.1
 python-bidi==0.6.6
@@ -133,8 +133,6 @@ python-multipart==0.0.20
 pyttsx3==2.98
 pytweening==1.2.0
 pytz==2025.2
-pywhatkit==5.4
-pywin32==308
 PyYAML==6.0.2
 qrcode==8.0
 reportlab==4.2.5

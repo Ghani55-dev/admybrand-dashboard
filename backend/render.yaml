@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: admybrand-backend
+    env: python
+    plan: free
+    runtime: python
+    buildCommand: ""
+    startCommand: gunicorn backend.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: backend.settings
+      - key: PYTHON_VERSION
+        value: 3.10
