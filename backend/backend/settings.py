@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-pl&=8t6uirms9mz=fjx#x62*ei&cp^r!ekb9$@ytdeg7bw^^$g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['admybrand-dashboard-t4bi.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition

@@ -15,8 +15,8 @@ function Dashboard() {
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
 
-  const { data: growthData, loading } = useFetch('http://127.0.0.1:8000/api/user-growth/');
-  const { data: engagementData, loading: loadingEngagement } = useFetch('http://127.0.0.1:8000/api/engagement/');
+  const { data: growthData, loading } = useFetch('https://admybrand-dashboard-t4bi.onrender.com/api/user-growth/');
+  const { data: engagementData, loading: loadingEngagement } = useFetch('https://admybrand-dashboard-t4bi.onrender.com/api/engagement/');
 
   // Fetch summary metrics every 5 seconds
   useEffect(() => {
@@ -27,12 +27,12 @@ function Dashboard() {
 
   // Fetch data table once
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/api/user-campaigns/')
+    axios.get('https://admybrand-dashboard-t4bi.onrender.com/api/user-campaigns/')
       .then(res => setTableData(res.data));
   }, []);
 
   const fetchData = () => {
-    axios.get('http://127.0.0.1:8000/api/metrics/')
+    axios.get('https://admybrand-dashboard-t4bi.onrender.com/api/metrics/')
       .then(res => setMetrics(res.data));
   };
 
